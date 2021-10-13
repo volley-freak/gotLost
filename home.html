@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Got Lost</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="images/logo.png" alt="logo" />
+        </div>
+        <div class="content">
+            <p>
+                Welcome RJITians! Here we connect the lost belongings and the people who help are appreciated in different ways! &#128540;
+            </p>
+        </div>
+        <div class="right">
+            <a href="https://www.rjit.ac.in/" target="_blank"><img src="images/rjitlogo.png" alt="rjitlogo" /></a>
+        </div>
+    </header>
+
+    <nav>
+        <div class="navigation">
+            <ul class="home_contact">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <ul class="login_reg">
+                <li id="login">
+                    <a href="#">Login</a>
+                </li>
+                <li style="color: white">&#x2f;</li>
+                <li id="register">
+                    <a href="forms/register.html">SignUp</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="login_popup">
+            <div class="container">
+                <div class="close" id="close_login">&#x2716;</div>
+                <form action="">
+                    <div class="login">
+                        <div class="image">
+                            <img src="images/login.png" alt="login" />
+                        </div>
+                        <h3>Login</h3>
+                    </div>
+                    <hr />
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                    <input type="password" name="password" id="password" placeholder="Password" />
+
+                    <div class="forget_register">
+                        <p>
+                            <a href="#">Forget Password ?</a> /
+                            <a href="forms/signup.html">Register</a>
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <button id="login"><a href="#">Login</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- lost_popup -->
+        <div class="lost_popup" id="lost_popup">
+            <div class="container">
+                <div class="close" id="close_lost">&#x2716;</div>
+
+                <form action="">
+                    <!-- <img src="/projectimages/logo.png" alt="logo"> -->
+                    <div class="hd">
+                        <p>Lost Something...?</p>
+                        <p>Help Us To Help You Out! &#128522;</p>
+                    </div>
+                    <h2>Item Details</h2>
+                    <h5>Item : * <input type="text" name="item" id="item" /></h5>
+                    <h5>
+                        Location (If You Remember) :
+                        <input type="text" name="location" id="location" />
+                    </h5>
+                    <h5>
+                        Date (If You Remember) :
+                        <input type="date" name="date" id="date" />
+                    </h5>
+                    <h5>
+                        Item Description * : <br />
+                        <textarea name="item_description" id="item_description" cols="80" rows="5"></textarea>
+                    </h5>
+
+                    <h5>
+                        Reward For Founder (<i><small>not mandatory</small></i> ) :
+                        <input type="text" name="reward" id="reward" />
+                    </h5>
+
+                    <a href="#"><button type="submit">Submit</button></a>
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- found_popup -->
+
+        <div class="found_popup">
+            <div class="container">
+                <div class="close" id="close_found">&#x2716;</div>
+
+                <form action="">
+                    <!-- <img src="/projectimages/logo.png" alt="logo"> -->
+                    <h1>Glad To See You Here &#128525;</h1>
+                    <h2>Item Details</h2>
+                    <h5>
+                        Item : * <input type="text" name="item_found" id="item_found" />
+                    </h5>
+                    <h5>
+                        Location(<i><small>where you found</small></i
+              >): *
+              <input type="text" name="found_location" id="found_location" />
+            </h5>
+            <h5>
+              Date(<i><small>when you found</small></i
+              >) : * <input type="date" name="found_date" id="found_date" />
+            </h5>
+            <h5>
+              Time : <input type="time" name="found_time" id="found_time" />
+            </h5>
+
+            <a href="#"><button type="submit">Submit</button></a>
+            <button type="reset">Reset</button>
+          </form>
+        </div>
+      </div>
+
+      <section class="first">
+        <div class="f">
+          <div class="honest">
+            <p>
+              Something lost it's way and came to you just to show the world how
+              honest you are!
+            </p>
+          </div>
+          <div class="chill">
+            <p>
+              Or if you've lost something just chill! People here are damnnn
+              cool!
+            </p>
+          </div>
+        </div>
+
+        <div class="lost_found">
+          <div class="lost">
+            <a href="#" id="lost">Lost</a>
+          </div>
+          <div class="found">
+            <a href="#" id="found">Found</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="second">
+        <div class="stuffs">
+          <div class="watch">
+            <!-- watch -->
+            <img src="images/wrist_watch.jpg" alt="watch" />
+            <p>Return By : Palindrome</p>
+            <p>Branch : CSE (first year)</p>
+            <p>Date : 12/03/2021</p>
+            <p>Return To : Sampreeti</p>
+          </div>
+
+          <div class="book">
+            <!-- book -->
+            <img src="images/book.jpg" alt="book" />
+            <p>Return By : Raw's Official</p>
+            <p>Branch : CSE (first year)</p>
+            <p>Date : 12/03/2021</p>
+            <p>Return To : Graphian</p>
+          </div>
+
+          <div class="phone">
+            <!-- phone -->
+            <img src="images/phone.jpg" alt="phone" />
+            <p>Return By : Rawat Ji</p>
+            <p>Branch : CSE (first year)</p>
+            <p>Date : 12/03/2021</p>
+            <p>Return To : Nupur</p>
+          </div>
+          <div class="volley">
+            <!-- volleyball -->
+            <img src="images/volleyball.png" alt="volley" />
+            <p>Return By : VolleyFreak</p>
+            <p>Branch : CSE (first year)</p>
+            <p>Date : 12/03/2021</p>
+            <p>Return To : Still Don't Know</p>
+          </div>
+        </div>
+        <div class="see_more">
+          <a href="#"><img src="images/see more.png" alt="view more" /></a>
+          <!-- <a href="#">View More</a>  -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#">FAQ</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Terms Of Use</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">&copy;Copyright</a>
+    </footer>
+  </body>
+</html>

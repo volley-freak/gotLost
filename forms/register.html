@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+</head>
+<!-- <link rel="stylesheet" href="register.css" /> -->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+
+<body>
+    <nav>
+        <div class="navigation">
+            <ul class="home_contact">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <ul class="login_reg">
+                <li id="login">
+                    <a href="">Login</a>
+                </li>
+                <li style="color: white">&#x2f;</li>
+                <li id="register">
+                    <a href="forms/signup.html">SignUp</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <form action="" name="my_form" onsubmit="return valid_form()" method="POST">
+        <div class="images">
+            <img id="logo" src="images/logo.png" alt="logo" />
+            <h3>Create Your Account, It's 100% free</h3>
+            <img id="rjitlogo" src="images/rjitlogo.png" alt="rjitlogo" />
+        </div>
+        <hr />
+        <div class="reg_form" id="full_name">
+            Full Name : *
+            <input type="text" name="full_name" required placeholder="Full Name" /><b><span class="form_error"> </span></b>
+        </div>
+
+        <div class="reg_form" id="graduation_year">
+            Graduation Year :
+            <select name="graduation_year">
+          <option value="">--select your Graduation Year--</option>
+          <option value="first">&#8544;</option>
+          <option value="second">&#8545;</option>
+          <option value="third">&#8546;</option>
+          <option value="fourth">&#8547;</option>
+        </select>
+        </div>
+
+        <div class="reg_form" id="enrol_number">
+            Enrollment Number :
+            <input type="text" name="enoll_number" placeholder="0902XXXXXXXX" /><b><span class="form_error"> </span
+        ></b>
+        </div>
+
+        <div class="gender">
+            <fieldset>
+                <legend>
+                    <h5>Gender :</h5>
+                </legend>
+                <p><input type="radio" name="gender" id="gender" />Male</p>
+                <p><input type="radio" name="gender" id="Female" />Female</p>
+                <p><input type="radio" name="gender" id="other" />Other</p>
+            </fieldset>
+        </div>
+
+        <div class="reg_form" id="branch">
+            Branch :
+            <select name="branch">
+          <option value="">--select your branch--</option>
+          <option value="cse">Computer Science Engineering</option>
+          <option value="it">Information Technology</option>
+          <option value="ec">Electronics And Communication Engineering</option>
+          <option value="ee">Electrical Engineering</option>
+          <option value="au">Automobile Engineering</option>
+          <option value="me">Mechanical Engineering</option>
+        </select>
+        </div>
+
+        <div class="reg_form" id="email">
+            Email : *
+            <input type="email" name="email" required placeholder="abc@example.com" /><b><span class="form_error"> </span></b>
+        </div>
+        <div class="reg_form" id="password">
+            Password : * <input type="password" name="password" required /><b><span class="form_error"> </span
+        ></b>
+        </div>
+        <div class="reg_form" id="confirm_password">
+            Confirm Password : *
+            <input type="password" name="confirm_password" required /><br /><b><span class="form_error"> </span
+        ></b>
+        </div>
+        <div class="reg_form" id="phone">
+            Phone : *
+            <input type="number" name="phone" required placeholder="XXXXXXXXXX" /><b><span class="form_error"> </span
+        ></b>
+        </div>
+
+        <div class="btns">
+            <button class="btn" type="submit" value="Register">Register</button>
+            <button class="btn" type="reset" value="Reset">Reset</button>
+        </div>
+    </form>
+
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">&copy;Copyright</a>
+    </footer>
+</body>
+
+</html>
