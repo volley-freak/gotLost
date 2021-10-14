@@ -16,3 +16,4 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 1. Fork the repo and create your branch from `master`.
 2. If you've added code that should be tested, add tests.
 3. If you've changed APIs, update the documentation.
+4. Don't directly give a pull request without submitting an issue and get assigned in it, if you send a pull request without getting assigned in that issue that request will be labeled as invalid or spam.
