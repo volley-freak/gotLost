@@ -1,37 +1,95 @@
-## Welcome to GitHub Pages
+# gotLost
+A lost or found website for college.
+<div align="center">
 
-You can use the [editor on GitHub](https://github.com/Volley-Freak/gotLost/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/Volley-Freak/gotLost)&nbsp;
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/Volley-Freak/gotLost)&nbsp;
+![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=brightgreen&style=flat&logo=github)&nbsp;
+[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat)](https://github.com/Volley-Freak/gotLost)&nbsp;
+[![GitHub stars](https://img.shields.io/github/stars/Volley-Freak/gotLost)](https://github.com/Volley-Freak/gotLost/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Volley-Freak/gotLost)](https://github.com/Volley-Freak/gotLost/network/members)
+[![GitHub Contributers](https://img.shields.io/github/contributors/Volley-Freak/gotLost)](https://github.com/Volley-Freak/gotLost/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/Volley-Freak/gotLost)](https://github.com/Volley-Freak/gotLost/issues)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Volley-Freak/gotLost)](https://github.com/Volley-Freak/gotLost/pulls)
+[![GitHub closed-issues](https://img.shields.io/github/issues-closed-raw/Volley-Freak/gotLost)](https://github.com/Volley-Freak/gotLost/pulls)
+[![GitHub closed-prs](https://img.shields.io/github/issues-pr-closed-raw/Volley-Freak/gotLost)](https://github.com/Volley-Freak/gotLost/pulls)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</div>
 
-### Markdown
+####  💻Tech Stack
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/Volley-Freak/gotLost/search?l=html)&nbsp;
+[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/Volley-Freak/gotLost/search?l=css)&nbsp;
+[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/Volley-Freak/gotLost/search?l=javascript)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## 📌Contributing Guidelines :
+<h3>First read CONTRIBUTING.md</h3>
 
-**Bold** and _Italic_ and `Code` text
+### Do not make a PR without getting the issues assigned. Read Rules Carefully!
 
-[Link](url) and ![Image](src)
+*1.* Fork [this](https://github.com/Volley-Freak/gotLost) repository.
+
+*2.* Clone your forked copy of the project.
+
+```
+git clone --depth 1 https://github.com/<your_name>/gotLost.git
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+*3.* Navigate to the project directory :file_folder: .
 
-### Jekyll Themes
+```
+cd gotLost
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Volley-Freak/gotLost/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+*4.* Add a reference(remote) to the original repository.
 
-### Support or Contact
+```
+git remote add upstream https://github.com/Volley-Freak/gotLost.git
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+*5.* Check the remotes for this repository.
+
+```
+git remote -v
+```
+
+*6.* Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
+
+```
+git pull upstream main
+```
+
+*7.* Create a new branch.
+
+```
+git checkout -b <your_branch_name>
+```
+
+*8.* Perfom your desired changes to the code base and track your changes:heavy_check_mark: .
+
+```
+git add .
+```
+
+*9.* Commit your changes .
+
+```
+git commit -m "Relevant message"
+```
+
+*10.* Push the committed changes in your feature branch to your remote repo.
+
+```
+git push -u origin <your_branch_name>
+```
+
+*11.* To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
+
+*12.* Add appropriate title and description to your pull request explaining your changes and efforts done. Always make sure you have pulled the latest code from the main branch before making a PR.
+
+*13.* Click on `Create Pull Request`.
+
+*14.* Hurray ❗ You have created a PR to the gotLost 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
