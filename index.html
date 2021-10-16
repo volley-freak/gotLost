@@ -16,36 +16,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Monoton&family=Montserrat:ital,wght@0,200;0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+
+    <!-- mdbootstrap -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
     <title>Home</title>
 </head>
 
 <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">gotLost</a>
+        <a class="navbar-brand grow" href="#">gotLost</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
+                <li class="nav-item grow">
                     <a class="nav-link" href="#">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Lost</a>
+
+                <li class="nav-item grow">
+                    <a class="nav-link" href="#">Lost</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item grow">
                     <a class="nav-link" href="foundForm.html">Found</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item grow">
                     <a class="nav-link" href="#">About Us</a>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item grow">
                     <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
             </ul>
-            <i class="fas fa-user signin"> SignIn</i>
+            <i class="fas fa-user signin grow"> SignIn</i>
         </div>
     </nav>
     <!-- <h1>Hello, world!</h1> -->
@@ -59,7 +68,7 @@
 
                 <p>Something lost it's way and came to you just to show the world how honest you are!</p>
                 <p class="mb-5">Or if you've lost something just chill! People here are damnnn cool!</p>
-                <div><a class="learn-more" href="#">Learn More</a></div>
+                <div class="shrink"><a class="learn-more" href="#">Learn More</a></div>
 
             </div>
 
@@ -88,7 +97,8 @@
                     <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos at, nisi excepturi sapiente! Debitis maiores quam aliquam tempore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos
                         at, nisi excepturi sapiente! Debitis maiores quam aliquam tempore?Lorem ipsum dolor sit amet consectetur adipisicing elLorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos at, nisi excepturi sapiente!
                         Debitis maiores quam aliquam tempore?it. Veritatis officiis dignissimos at, nisi excepturi sapiente! Debitis maiores quam aliquam tempore?</p>
-                    <div><a class="learn-more" href="#">Learn More</a></div>
+                    <div class="shrink d-inline-block"><a class="learn-more px-5" href="about_us.html">Learn More</a></div>
+
 
                 </div>
 
@@ -118,7 +128,7 @@
                             <li class="text-left mb-4">Fourth Point</li>
                         </ul>
 
-                        <div><a class="learn-more px-5" href="lostForm.html">Next</a></div>
+                        <div class="shrink"><a class="learn-more px-5" href="lostForm.html">Next</a></div>
                     </div>
 
                 </div>
@@ -136,7 +146,7 @@
                             <li class="text-left mb-4">Fourth Point</li>
                         </ul>
 
-                        <div><a class="learn-more px-5" href="foundForm.html">Next</a></div>
+                        <div class="shrink"><a class="learn-more px-5" href="foundForm.html">Next</a></div>
                     </div>
                 </div>
             </div>
@@ -220,7 +230,7 @@
                 </div>
             </div>
             <div class="bottom text-center mt-5 pb-5">
-                <div><a class="learn-more px-5" href="#">View More</a></div>
+                <div class="shrink"><a class="learn-more px-5" href="#">View More</a></div>
             </div>
         </section>
         <section class="service section-5">
@@ -238,8 +248,9 @@
                         Debitis maiores quam aliquam tempore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos at, nisi excepturi sapiente! Debitis maiores quam aliquam tempore?Lorem ipsum dolor sit amet consectetur
                         adipisicing elLorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos at, nisi excepturi sapiente! Debitis maiores quam aliquam tempore?it. Veritatis officiis dignissimos at, nisi excepturi sapiente!
                         Debitis maiores quam aliquam tempore?! Debitis maiores quam aliquam tempore?</p>
-                    <a class="learn-more" href="#">Learn More</a>
-
+                    <div class="shrink">
+                        <a class="learn-more" href="#">Learn More</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -324,6 +335,12 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- mdbootstrap -->
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
 </body>
 
 </html>
