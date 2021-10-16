@@ -1,0 +1,140 @@
+    /* body {
+        background: white;
+    } */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif
+    }
+    
+    .navbar {
+        background: #030027;
+        padding: 1rem 8rem;
+        z-index: 1000;
+    }
+    
+    .navbar .navbar-brand {
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Monoton', cursive;
+    }
+    
+    .navbar .navbar-brand:hover {
+        color: #caac00;
+    }
+    
+    ul li {
+        margin: 0px 10px;
+    }
+    
+    #navbarSupportedContent>ul>li:nth-child(n)>a {
+        color: #fff;
+        font-size: 1.1rem;
+        padding: 0 0.8rem;
+        cursor: pointer;
+    }
+    
+    #navbarSupportedContent>ul>li:nth-child(n)>a:hover {
+        color: #caac00;
+    }
+    /* #navbarSupportedContent>button {
+        background-color: #00f7ff;
+        font-weight: 600;
+        border: #00f7ff;
+        padding: 0.4rem 1.4rem;
+        border-radius: 30px;
+    } */
+    
+    .signin {
+        color: white;
+        font-size: 1.5rem;
+        cursor: pointer;
+        /* font-weight: 200; */
+    }
+    
+    .signin:hover {
+        color: #caac00;
+        /* font-weight: 200; */
+    }
+    
+    #navbarSupportedContent>button:hover {
+        background: rgb(22, 138, 113);
+    }
+    
+    #form-container {
+        max-width: 900px;
+        width: 100%;
+        /* box-shadow: 2px 6px 26px #0000008a; */
+        background-color: white;
+    }
+    
+    .input-group-text {
+        color: #ffffff;
+        letter-spacing: 1px;
+        font-family: 'Montserrat';
+    }
+    
+    label a {
+        color: black;
+    }
+    
+    label a:hover {
+        text-decoration: none;
+    }
+    
+    h1,
+    h3 {
+        color: #030027;
+    }
+    
+    .image {
+        /* border: 2px solid red; */
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    img {
+        /* border: 2px solid green; */
+        width: 100%;
+    }
+    
+    #main-container {
+        max-width: 90%;
+        height: 100vh;
+        display: flex;
+        /* border: 2px solid black; */
+    }
+    
+    footer small {
+        word-spacing: 1px;
+        font-size: 1.2rem;
+        color: rgba(255, 255, 255, 0.616);
+        margin-left: 10em;
+        cursor: pointer;
+    }
+    
+    small span:hover {
+        color: white;
+    }
+    
+    .brand a {
+        font-family: 'Monoton', cursive;
+        color: rgba(255, 255, 255, 0.582);
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    
+    .brand a:hover {
+        color: white;
+    }
+    
+    #sticky-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
