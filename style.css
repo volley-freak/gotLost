@@ -155,7 +155,21 @@ h2 hr {
     /* padding: 0.6rem 1.4rem;
     border-radius: 30px; */
 }
+.shrink {
+    transition: all 0.4s;
+}
 
+.shrink:hover {
+    transform: scale(0.85);
+}
+
+.grow {
+    transition: all 0.3s;
+}
+
+.grow:hover {
+    transform: scale(1.2);
+}
 .lost-found {
     width: 80%;
 }
