@@ -6,7 +6,6 @@
     font-family: 'Montserrat', sans-serif
 }
 
-
 .navbar {
     background: #030027;
     padding: 1rem 8rem;
@@ -53,18 +52,34 @@ ul li {
 #navbarSupportedContent>button:hover {
     background: rgb(22, 138, 113);
 }
-#form-container {
-    max-width: 900px;
-    width: 100%;
-    /* box-shadow: 2px 6px 26px #0000008a; */
-    background-color: white;
+
+
+/* main {
+    background: url('https://image.freepik.com/free-vector/white-abstract-background_23-2148806276.jpg') center/cover;
+} */
+
+section {
+    position: relative;
 }
+
 .section-1 {
     /* border: 2px solid red;/ */
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background: url('images/Untitled-1.png') center/cover no-repeat; */
+}
+
+.section-1::before {
+    content: "";
+    background: url('images/Untitled-1.png') center/cover no-repeat;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
 }
 
 .got-lost-heading {
@@ -72,34 +87,50 @@ ul li {
     font-family: 'Yeseva One', cursive;
     font-size: 5rem;
 }
-h1,h3 {
-    color: #030027;
-}
-    
 
 section .title {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 3rem;
+    font-weight: 800;
 }
 
-.title hr {
+h2 hr {
     height: 3px;
     width: 2em;
     background-color: #030027;
 }
 
-.section-1,
-.section-2 p {
-    font-size: 1.2rem;
+.section-1 p,
+.section-2 p,
+.section-5 p {
+    font-size: 1.3rem;
     text-align: justify;
     /* word-spacing: 1px; */
     line-height: 30px;
-}
-
-.discovery-col-ak {
-    background: rgb(255, 255, 255);
+    font-weight: 500;
 }
 
 .section-2 {
+    max-width: 100%;
+    /* height: 100%; */
+}
+
+.section-2::before,
+.section-3::before,
+.section-4::before,
+.section-5::before,
+.section-6::before {
+    content: "";
+    background: url('images/Untitled-1.png') center/cover no-repeat;
+    position: absolute;
+    /* top: 0; */
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.section-2 .container {
     max-width: 90%;
     display: flex;
     justify-content: space-between;
@@ -107,29 +138,76 @@ section .title {
 }
 
 .learn-more {
-    color: black;
-    border: #030027 2px solid;
+    text-decoration: none;
+    background-color: #030027;
+    color: #caac00;
     padding: 0.6rem 1.4rem;
     border-radius: 30px;
     text-decoration: none;
+    font-size: 1.3rem;
 }
 
 .learn-more:hover {
     text-decoration: none;
-    background-color: #030027;
-    color: #caac00;
+    color: black;
+    border: #030027 2px solid;
+    background-color: white;
+    /* padding: 0.6rem 1.4rem;
+    border-radius: 30px; */
 }
 
 .lost-found {
     width: 80%;
 }
 
-.service {
-    background: rgb(4, 3, 65);
+
+/* .section-3 {
+    background: url('https://image.freepik.com/free-vector/white-gray-background-with-diagonal-lines-pattern_1017-25100.jpg') center/cover no-repeat;
+} */
+
+.section-3 .container {
+    max-width: 80%;
+}
+
+.section-3 .card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.section-3 .learn-more {
+    background: white;
+    color: #030027;
+}
+
+.section-3 .learn-more:hover {
+    background: #030027;
+    color: white;
+    border: 2px solid white;
+}
+
+.lost-found-card {
+    background: #030027;
+    border: 2px solid #0300273a;
+    /* box-shadow: 0px 0px 90px 30px rgb(0 0 0 / 22%); */
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.section-3 ul li {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
 }
 
 .service .one {
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,239 +221,36 @@ h5 {
     font-weight: 1000;
 }
 
-.choose {
-    background: rgb(188, 188, 229);
+
+/* RECENT RETURNS */
+
+
+/* .section-4,
+.section-5 {
+    background: url('https://image.freepik.com/free-vector/white-abstract-background_23-2148806276.jpg') center/cover no-repeat;
+} */
+
+.section-4 .container,
+.section-5 .container {
+    max-width: 80%;
 }
 
-.choose .one {
-    background: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    padding: 2rem 1.5rem;
-    border-radius: 7px;
+
+/* .section-6 .container {
+    max-width: 80%;
 }
 
-h5 {
-    font-weight: 1000;
+.testimonial-three-col {
+    background: #030027;
+    padding: 20x;
 }
 
-.bottom {
-    text-decoration: none;
-    padding-bottom: 10px;
-}
+.testimonial-three-col strong {
+    color: white;
+} */
 
-.like {
-    font-size: 1.5rem;
-}
-
-.btn.btn-outline-primary:hover,
-.bg-primary {
-    background-color: #0cb4ce !important;
-}
-
-.section-medium {
-    padding: 55px 0px;
-}
-
-.testimonial-four blockquote:hover::after,
-.section-arrow-primary-color.section-arrow--bottom-center:after {
-    border-right-color: #0cb4ce;
-}
-
-.section-arrow-primary-color.section-arrow--bottom-center:after {
-    background-color: #0cb4ce;
-    border-right-color: #0cb4ce;
-    border-bottom-color: #0cb4ce;
-}
-
-.section-arrow--bottom-center:after {
-    z-index: 1;
-    position: absolute;
-    left: 50%;
-    margin-left: -15px;
-    content: "";
-    position: absolute;
-    bottom: -15px;
-    width: 30px;
-    height: 30px;
-    border-right: 1px solid #262626;
-    border-bottom: 1px solid #262626;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    background-color: #262626;
-}
-.input-group-text {
-    color: #ffffff;
-    letter-spacing: 1px;
-    font-family: 'Montserrat';
-}
-
-.text-white h1,
-.text-white h2,
-.text-white h3,
-.text-white h4,
-.text-white h5,
-.text-white h6 {
-    color: white !important;
-}
-
-.section-title {
-    font-size: 32px;
-    font-weight: 600;
-    margin-top: 0.45em;
-    margin-bottom: 0.35em;
-    color: #303133;
-    font-family: Poppins;
-    letter-spacing: -0.02em;
-}
-
-.section-sub-title {
-    font-size: 18px;
-    margin-bottom: 20px;
-    font-weight: 400;
-    font-family: Poppins;
-}
-
-.section-arrow-primary-color.section-arrow--bottom-center:after {
-    border-bottom-color: #0cb4ce;
-}
-
-.section-arrow-primary-color.section-arrow--bottom-center:after {
-    background-color: #0cb4ce;
-}
-
-.special-heading.line span:before,
-.special-heading.line span:after,
-.footer.footer-minimal,
-.t-bordered {
-    border-top-color: #eaeaea;
-}
-
-.t-bordered {
-    border-top: 1px solid #eaeaea;
-}
-
-.section-primary {
-    padding: 75px 0px;
-}
-
-section {
-    position: relative;
-}
-
-.testimonial-two {
-    padding: 20px;
-    border: 2px solid #0cb4ce;
-    border-radius: 2px;
-}
-
-.testimonial-two blockquote p:before {
-    font-family: 'Playfair Display';
-    font-size: 54px;
-    color: #0cb4ce;
-    font-weight: 900;
-    left: 10px;
-    color: #FFF;
-    content: "“";
-    font-style: normal;
-    line-height: 1;
-    position: absolute;
-    top: 5px;
-    font-size: 45px;
-}
-
-.testimonial-two blockquote p:after {
-    font-family: 'Playfair Display';
-    font-size: 54px;
-    color: #0cb4ce;
-    content: "”";
-    font-size: 80px;
-    font-style: normal;
-    line-height: 1;
-    position: absolute;
-    bottom: -0.5em;
-    right: 10px;
-    font-weight: 900;
-    transform: scaleY(-1);
-    font-size: 45px;
-    bottom: -5px;
-}
-
-.testimonial-two blockquote {
-    padding: 15px 15px 15px 48px;
-    position: relative;
-}
-
-.testimonial-two blockquote p:before,
-.testimonial-two blockquote p:after {
-    color: #0cb4ce;
-    font-weight: 900;
-}
-
-.testimonial-two blockquote p {
-    font-size: inherit;
-    font-weight: inherit;
-}
-
-.testimonial-two .testimonial-author p {
-    color: #999;
-    margin: 0 0 0 25px;
-    text-align: left;
-}
-
-.testimonial-two .testimonial-author strong {
-    display: block;
-    padding-top: 10px;
-    margin-bottom: -2px;
-    font-weight: 500;
-    font-size: 14px;
-    color: #444;
-}
-
-.testimonial-two .testimonial-author span {
-    color: #666;
-    display: block;
-    font-size: 12px;
-}
-
-.testimonial-two .testimonial-author .testimonial-author-thumbnail {
-    float: left;
-    margin-right: 15px;
-    width: auto;
-}
-
-.testimonial-two .testimonial-author img {
-    max-width: 55px;
-}
-
-.testimonial-two .testimonial-author {
-    margin-left: 12px;
-    margin-bottom: 15px;
-}
-
-.testimonial-two .owl-theme .owl-nav.disabled+.owl-dots {
-    margin-top: 0px;
-}
-
-.testimonial-two .owl-theme .owl-dots {
-    text-align: left;
-    margin-left: 50px;
-}
-
-.testimonial-two .owl-carousel .owl-dots .owl-dot.active span,
-.testimonial-two .owl-carousel .owl-dots .owl-dot:hover span {
-    border-color: #0cb4ce;
-}
-
-.testimonial-two .owl-carousel .owl-dots .owl-dot.active span:before,
-.testimonial-two .owl-carousel .owl-dots .owl-dot:hover span:before {
-    background-color: #0cb4ce;
+.testimonial-three-col p {
+    text-align: justify;
 }
 
 .testimonial-three .testimonial-image {
@@ -397,220 +272,8 @@ section {
     margin-left: 100px;
 }
 
-.testimonial-three .testimonial-name {
-    display: block;
-}
-
-.testimonial-three .testimonial-three-col {
-    padding-bottom: 35px;
-}
-
-.testimonial-three .testimonial-three-col {
-    border-right-style: dashed;
-    border-right-width: 1px;
-    border-bottom-style: dashed;
-    border-bottom-width: 1px;
-    border-right-color: #ddd;
-    border-bottom-color: #ddd;
-    padding: 25px;
-}
-
-.testimonial-three .testimonial-three-col:hover {
-    background-color: #f7f7f7;
-}
-
 .alternate-color .testimonial-three .testimonial-three-col:hover {
     background-color: white;
-}
-
-.testimonial-three.testimonial-three--col-two .testimonial-three-col:nth-child(2n) {
-    border-right: none;
-}
-
-.testimonial-three.testimonial-three--col-two .testimonial-three-col:nth-last-child(-n+2),
-.testimonial-three.testimonial-three--col-two .testimonial-three-col:last-child {
-    border-bottom: none;
-}
-
-.testimonial-three.testimonial-three--col-three .testimonial-three-col:nth-child(3n) {
-    border-right: none;
-}
-
-.testimonial-three.testimonial-three--col-three .testimonial-three-col:nth-last-child(-n+3),
-.testimonial-three.testimonial-three--col-three .testimonial-three-col:nth-last-child(-n+2),
-.testimonial-three.testimonial-three--col-three .testimonial-three-col:last-child {
-    border-bottom: none;
-}
-
-.testimonial-four .testimonial-author .testimonial-author-thumbnail {
-    float: left;
-    margin-right: 15px;
-    width: auto;
-}
-
-.testimonial-four .testimonial-author img {
-    max-width: 55px;
-}
-
-.testimonial-four .testimonial-author strong {
-    display: block;
-    padding-top: 10px;
-    margin-bottom: -2px;
-    font-weight: 500;
-    font-size: 14px;
-    color: #444;
-}
-
-.testimonial-four .testimonial-author span {
-    color: #666;
-    display: block;
-    font-size: 12px;
-}
-
-.testimonial-four blockquote {
-    padding: 30px;
-    width: 100%;
-    border-radius: 4px;
-    position: relative;
-    margin-bottom: 20px;
-    padding-bottom: 25px;
-    border: 2px solid #eaeaea;
-}
-
-.testimonial-four blockquote::after {
-    content: "";
-    border-right: 2px solid #eaeaea;
-    border-bottom: 2px solid #eaeaea;
-    -webkit-transform: rotate(55deg);
-    -moz-transform: rotate(55deg);
-    -ms-transform: rotate(55deg);
-    -o-transform: rotate(55deg);
-    transform: rotate(55deg);
-    position: absolute;
-    left: 55px;
-    bottom: -12px;
-    width: 15px;
-    height: 21px;
-    overflow: hidden;
-    background: white;
-}
-
-.testimonial-four .owl-theme .owl-nav.disabled+.owl-dots {
-    position: absolute;
-    float: right;
-    text-align: right;
-    right: 3px;
-    bottom: 40px;
-}
-
-.testimonial-four .testimonial-author {
-    position: relative;
-    overflow: hidden;
-}
-
-.testimonial-four blockquote:hover::after {
-    border-right: 2px solid #0cb4ce;
-    border-bottom: 2px solid #0cb4ce;
-}
-
-.testimonial-four blockquote:hover {
-    border: 2px solid #0cb4ce;
-}
-
-.testimonial-five blockquote p {
-    font-weight: 400;
-    font-size: 14.58px;
-    line-height: 1.6;
-    margin-bottom: 0;
-}
-
-.testimonial-five .testimonial-author .testimonial-author-thumbnail {
-    float: left;
-    margin-right: 15px;
-    width: auto;
-}
-
-.testimonial-five .testimonial-author img {
-    max-width: 55px;
-}
-
-.testimonial-five .testimonial-author strong {
-    display: block;
-    padding-top: 10px;
-    margin-bottom: -2px;
-    font-weight: 600;
-    font-size: 13px;
-}
-
-.testimonial-five .testimonial-author span {
-    color: #666;
-    display: block;
-    font-size: 12px;
-}
-
-.testimonial-five blockquote {
-    padding: 32px 41px 37px;
-    width: 100%;
-    border-radius: 4px;
-    position: relative;
-    margin-bottom: 30px;
-    border: 0px solid #eaeaea;
-    background-color: #f7f7f7;
-}
-
-.testimonial-five blockquote::after {
-    content: "";
-    border-right: 0px solid #eaeaea;
-    border-bottom: 0px solid #eaeaea;
-    -webkit-transform: rotate(55deg);
-    -moz-transform: rotate(55deg);
-    -ms-transform: rotate(55deg);
-    -o-transform: rotate(55deg);
-    transform: rotate(55deg);
-    position: absolute;
-    left: 55px;
-    bottom: -10px;
-    width: 15px;
-    height: 21px;
-    overflow: hidden;
-    background: #f7f7f7;
-}
-
-.testimonial-five.testimonial-light blockquote {
-    background-color: white;
-}
-
-.testimonial-five.testimonial-light blockquote::after {
-    background: white;
-}
-
-.testimonial-five .owl-theme .owl-nav.disabled+.owl-dots {
-    position: absolute;
-    float: right;
-    text-align: right;
-    right: 3px;
-    bottom: 40px;
-}
-
-.testimonial-five .testimonial-author {
-    position: relative;
-    overflow: hidden;
-}
-
-.testimonial-five blockquote:before {
-    content: "“";
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 170px;
-    color: rgba(189, 189, 189, 0.2);
-    position: absolute;
-    top: 10px;
-    left: 20px;
 }
 
 img {
@@ -621,6 +284,7 @@ img {
 #page-content {
     flex: 1 0 auto;
 }
+
 footer small {
     word-spacing: 1px;
     font-size: 1.2rem;

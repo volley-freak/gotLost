@@ -1,390 +1,329 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <title>gotLost</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Monoton&family=Montserrat:ital,wght@0,200;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <title>Home</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#">gotLost</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">gotLost</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Lost</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="foundForm.html">Found</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">LOST</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">FOUND</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT US</a>
-                    </li>
-                </ul>
-                <button class="btn btn-success text-dark" type="submit">Sign In</button>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <i class="fas fa-user signin"> SignIn</i>
+        </div>
+    </nav>
+    <!-- <h1>Hello, world!</h1> -->
+    <main>
+        <section class="discovery  container section-1 ">
+
+
+            <div class="text col-lg-6 col-md-6 col-12 w-50 d-flex flex-column align-items-center justify-content-center">
+
+                <h1 class="got-lost-heading mb-3">GOT LOST</h1>
+
+                <p>Something lost it's way and came to you just to show the world how honest you are!</p>
+                <p class="mb-5">Or if you've lost something just chill! People here are damnnn cool!</p>
+                <div><a class="learn-more" href="#">Learn More</a></div>
+
             </div>
-        </nav>
 
-        <section class="discovery py-5">
+            <div class="img col-lg-6 col-md-6 col-12">
+                <img src="images/lost-and-found.png" alt="image" class="img-fluid lost-found">
 
-            <div class="row align-items-center container  mx-auto">
+            </div>
 
-                <div class="text col-lg-6 col-md-6 col-12 w-50 ">
-                    <div class="heading text-center ">
-                        <h1 class="font-weight-bold text-dark">GOT LOST</h1>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos at, nisi
-                        excepturi sapiente! Debitis maiores quam aliquam tempore?</p>
-                    <a class="text-dark c-h" href="#">Learn More</a>
+
+        </section>
+
+
+
+
+        <section class="discovery-col-ak  section-2">
+            <div class="container">
+                <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                    <img src="images/community.png" alt="image" class="img-fluid border-top-20">
 
                 </div>
+                <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                    <h2 class="title mb-3">WHAT WE DO
+                        <hr>
+                    </h2>
 
-                <div class="img col-lg-6 col-md-6 col-12 w-50 ">
-                    <img src="images/lost-get.jpeg" alt="image" class="img-fluid">
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos at, nisi excepturi sapiente! Debitis maiores quam aliquam tempore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos
+                        at, nisi excepturi sapiente! Debitis maiores quam aliquam tempore?Lorem ipsum dolor sit amet consectetur adipisicing elLorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos at, nisi excepturi sapiente!
+                        Debitis maiores quam aliquam tempore?it. Veritatis officiis dignissimos at, nisi excepturi sapiente! Debitis maiores quam aliquam tempore?</p>
+                    <div><a class="learn-more" href="#">Learn More</a></div>
 
                 </div>
 
             </div>
         </section>
+        <section class="service section-3">
+            <div class="col mx-auto align-items-center pt-5">
+                <div class="heading text-center mb-5 pt-3">
+                    <h2 class=" heading">OUR SERVICES
+                        <div class=" d-flex justify-content-center">
+                            <hr>
+                        </div>
 
-
-
-    </header>
-    <section class="discovery-col-ak py-5">
-        <div class="heading text-center ">
-            <h2 class="font-weight-bold text-dark">WHAT WE DO</h2>
-        </div>
-        <div class="row align-items-center container  mx-auto">
-
-            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-                <img src="images/headimg.jpeg" alt="image" class="img-fluid">
-
-            </div>
-            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos at, nisi
-                    excepturi sapiente! Debitis maiores quam aliquam tempore?</p>
-                <a class="text-dark" href="#">Learn More</a>
-
-            </div>
-
-        </div>
-    </section>
-    <section class="service py-5">
-        <div class="col mx-auto align-items-center my-5">
-            <div class="heading text-center pt-5">
-                <h2 class="font-weight-bold pb-5 text-light">OUR SERVICES</h2>
-            </div>
-            <div class="row mx-auto justify-content-center align-items-center text-center container">
-                <div class="one col-lg-3 col-md-3 col-12 w-25 m-2 align-items-center">
-                    <img class="img-fluid w-75" src="images/1.svg" alt="">
-                    <h5 class="font-weigth-bold pt-4">Reduce expenses</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione molestiae aliquam
-                        asperiores minima.</p>
-                    <a class="text-dark" href="#">Click Here</a>
+                    </h2>
                 </div>
-                <div class="one col-lg-3 col-md-3 col-12 w-25 m-2 align-items-center">
-                    <img class="img-fluid w-75" src="images/2.png" alt="">
-                    <h5 class="font-weigth-bold pt-4">Reduce expenses</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione molestiae aliquam
-                        asperiores minima.</p>
-                    <a class="text-dark" href="#">Click Here</a>
+                <div class="d-flex flex-row-reverse justify-content-between container">
+                    <div class="card-image w-50 col-lg-6 col-md-3 col-12  text-right">
+                        <img class="img-fluid w-100 " src="images/lost-card.png" alt="">
+                    </div>
+                    <div class="one col-lg-6 col-md-3 col-12 w-50 m-2 align-items-center lost-found-card">
+
+                        <h5 class="card-title">Lost</h5>
+                        <ul class="my-3 ">
+                            <li class="text-left mb-2">Only the property lost on College Grounds or Hostel Grounds can be reported </li>
+                            <li class="text-left mb-2">Maximum time for filing any lost report should be 2 days.</li>
+                            <li class="text-left mb-2">Third Point</li>
+                            <li class="text-left mb-4">Fourth Point</li>
+                        </ul>
+
+                        <div><a class="learn-more px-5" href="lostForm.html">Next</a></div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-row justify-content-between container mt-5 pb-5">
+                    <div class="card-image w-50 col-lg-6 col-md-3 col-12  text-left">
+                        <img class="img-fluid w-100" src="images/found-card.png" alt="">
+                    </div>
+                    <div class="one col-lg-6 col-md-3 col-12 w-50 m-2 align-items-center lost-found-card">
+
+                        <h5 class="card-title">Found</h5>
+                        <ul class="my-3 ">
+                            <li class="text-left mb-2">First Pointdgloewrhtfgoweriuoweirhoweirhoo</li>
+                            <li class="text-left mb-2">Second Point</li>
+                            <li class="text-left mb-2">Third Point</li>
+                            <li class="text-left mb-4">Fourth Point</li>
+                        </ul>
+
+                        <div><a class="learn-more px-5" href="foundForm.html">Next</a></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- RECENT RETURNS -->
+        <!-- RECENT RETURNS -->
 
-    <section>
-        <div class="heading text-center pt-5">
-            <h2 class="font-weight-bold pb-5 text-dark">RECENT RETURNS</h2>
-        </div>
-        <div class="returns">
+        <section class="section-4">
+            <div class="heading text-center mb-4 pt-5">
+                <h2 class=" heading pt-5">RECENT RETURNS
+                    <div class=" d-flex justify-content-center">
+                        <hr>
+                    </div>
+
+                </h2>
+            </div>
             <div class="container">
-                <div class="row mt-4">
-                    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img"
-                                src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png"
-                                alt="Vans">
-                            <div class="card-img-overlay d-flex justify-content-end">
-                                <a href="#" class="card-link text-danger like">
-                                    <i class="fas fa-heart"></i>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Vans Sk8-Hi MTE Shoes</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
-                                <p class="card-text">
-                                    The Vans All-Weather MTE Collection features footwear and apparel designed to
-                                    withstand
-                                    the elements whilst still looking cool. </p>
-                            </div>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="images/phone.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CELLPHONE</h5>
+                            <p class="card-text">Return By : <strong>Ishan Mishra</strong></p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img"
-                                src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png"
-                                alt="Vans">
-                            <div class="card-img-overlay d-flex justify-content-end">
-                                <a href="#" class="card-link text-danger like">
-                                    <i class="fas fa-heart"></i>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Vans Sk8-Hi MTE Shoes</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
-                                <p class="card-text">
-                                    The Vans All-Weather MTE Collection features footwear and apparel designed to
-                                    withstand
-                                    the elements whilst still looking cool. </p>
-                            </div>
+                    <div class="card mx-2">
+                        <img src="images/watch.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">WRIST WATCH</h5>
+                            <p class="card-text">Return By : <strong>Rawat Senpai</strong></p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 2 days ago</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img"
-                                src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png"
-                                alt="Vans">
-                            <div class="card-img-overlay d-flex justify-content-end">
-                                <a href="#" class="card-link text-danger like">
-                                    <i class="fas fa-heart"></i>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Vans Sk8-Hi MTE Shoes</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
-                                <p class="card-text">
-                                    The Vans All-Weather MTE Collection features footwear and apparel designed to
-                                    withstand
-                                    the elements whilst still looking cool. </p>
-                            </div>
+                    <div class="card">
+                        <img src="images/water-bottle.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">WATER BOTTLE</h5>
+                            <p class="card-text">Return By : <strong>Srishti Shukla</strong></p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 days ago</small>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-4">
-                    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img"
-                                src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png"
-                                alt="Vans">
-                            <div class="card-img-overlay d-flex justify-content-end">
-                                <a href="#" class="card-link text-danger like">
-                                    <i class="fas fa-heart"></i>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Vans Sk8-Hi MTE Shoes</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
-                                <p class="card-text">
-                                    The Vans All-Weather MTE Collection features footwear and apparel designed to
-                                    withstand
-                                    the elements whilst still looking cool. </p>
-                            </div>
+                <div class="card-group mt-2">
+                    <div class="card">
+                        <img src="images/airpods.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">AIRPPODS</h5>
+                            <p class="card-text">Return By : <strong>MR. PALINDROME</strong></p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 5 days ago</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img"
-                                src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png"
-                                alt="Vans">
-                            <div class="card-img-overlay d-flex justify-content-end">
-                                <a href="#" class="card-link text-danger like">
-                                    <i class="fas fa-heart"></i>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Vans Sk8-Hi MTE Shoes</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
-                                <p class="card-text">
-                                    The Vans All-Weather MTE Collection features footwear and apparel designed to
-                                    withstand
-                                    the elements whilst still looking cool. </p>
-                            </div>
+                    <div class="card mx-2">
+                        <img src="images/football.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">FOOTBALL</h5>
+                            <p class="card-text">Return By : <strong>MESSI</strong></p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 7 days ago.</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img"
-                                src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png"
-                                alt="Vans">
-                            <div class="card-img-overlay d-flex justify-content-end">
-                                <a href="#" class="card-link text-danger like">
-                                    <i class="fas fa-heart"></i>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Vans Sk8-Hi MTE Shoes</h4>
-                                <h6 class="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
-                                <p class="card-text">
-                                    The Vans All-Weather MTE Collection features footwear and apparel designed to
-                                    withstand
-                                    the elements whilst still looking cool. </p>
-                            </div>
+                    <div class="card">
+                        <img src="images/headphone.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">HEADPHONE</h5>
+                            <p class="card-text">Return By : <strong>CHRISTENSON</strong></p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 8 days ago</small>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="bottom text-center pt-5">
-            <button class="btn btn-success text-dark " type="submit">VIEW MORE</button>
-        </div>
-    </section>
-
-    <!--  -->
-
-    <section class="choose py-5">
-        <div class="col mx-auto align-items-center my-5">
-            <div class="heading text-center pt-5">
-                <h2 class="font-weight-bold pb-5 text-dark">WHY CHOOSE US</h2>
+            <div class="bottom text-center mt-5 pb-5">
+                <div><a class="learn-more px-5" href="#">View More</a></div>
             </div>
-            <div class="row mx-auto justify-content-center align-items-center text-center container">
-                <div class="one col-lg-3 col-md-3 col-12 w-25 m-2 align-items-center">
-                    <img class="img-fluid w-75" src="images/1.svg" alt="">
-                    <h5 class="font-weigth-bold pt-4">Reduce expenses</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione molestiae aliquam
-                        asperiores minima.</p>
+        </section>
+        <section class="service section-5">
+            <div class="row align-items-center container  mx-auto py-5">
+
+                <div class="img col-lg-6 col-md-6 col-12 w-75">
+                    <img src="images/mission.png" alt="image" class="img-fluid">
+
                 </div>
-                <div class="one col-lg-3 col-md-3 col-12 w-25 m-2 align-items-center">
-                    <img class="img-fluid w-75" src="images/2.png" alt="">
-                    <h5 class="font-weigth-bold pt-4">Reduce expenses</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione molestiae aliquam
-                        asperiores minima.</p>
-                </div>
-                <div class="one col-lg-3 col-md-3 col-12 w-25 m-2 align-items-center">
-                    <img class="img-fluid w-75" src="images/3.png" alt="">
-                    <h5 class="font-weigth-bold pt-4">Reduce expenses</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione molestiae aliquam
-                        asperiores minima.</p>
+                <div class="text col-lg-6 col-md-6 col-12 w-75">
+                    <h2 class="title mb-3">OUR MISSION
+                        <hr>
+                    </h2>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos at, nisi excepturi sapiente Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos at, nisi excepturi sapiente!
+                        Debitis maiores quam aliquam tempore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos at, nisi excepturi sapiente! Debitis maiores quam aliquam tempore?Lorem ipsum dolor sit amet consectetur
+                        adipisicing elLorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis dignissimos at, nisi excepturi sapiente! Debitis maiores quam aliquam tempore?it. Veritatis officiis dignissimos at, nisi excepturi sapiente!
+                        Debitis maiores quam aliquam tempore?! Debitis maiores quam aliquam tempore?</p>
+                    <a class="learn-more" href="#">Learn More</a>
+
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="service py-5">
-        <div class="heading text-center ">
-            <h2 class="font-weight-bold text-light">OUR MISSION</h2>
-        </div>
-        <div class="row align-items-center container  mx-auto">
+        </section>
+        <section class="section-primary t-bordered section-6">
+            <div class="heading text-center mb-4">
+                <h2 class=" heading">TESTIMONIALS
+                    <div class=" d-flex justify-content-center">
+                        <hr>
+                    </div>
 
-            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-                <img src="images/2.png" alt="image" class="img-fluid">
-
+                </h2>
             </div>
-            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis
-                    dignissimos at, nisi
-                    excepturi sapiente! Debitis maiores quam aliquam tempore?</p>
-                <a class="text-light" href="#">Learn More</a>
+            <div class="container pb-5">
+                <div class="row testimonial-three testimonial-three--col-three">
+                    <div class="col-md-4 testimonial-three-col">
+                        <div class="testimonial-inner">
+                            <div class="testimonial-image" itemprop="image">
+                                <img width="180" height="180" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+                            </div>
+                            <div class="testimonial-meta mb-2">
+                                <strong class="testimonial-name" itemprop="name">Anna Vandana</strong>
 
-            </div>
-
-        </div>
-    </section>
-
-
-
-    <section class="section-primary t-bordered">
-        <div class="heading text-center pt-5">
-            <h2 class="font-weight-bold pb-5 text-dark">TESTIMONIALS</h2>
-        </div>
-        <div class="container">
-            <div class="row testimonial-three testimonial-three--col-three">
-                <div class="col-md-4 testimonial-three-col">
-                    <div class="testimonial-inner">
-                        <div class="testimonial-image" itemprop="image">
-                            <img width="180" height="180" src="https://bootdey.com/img/Content/avatar/avatar1.png">
-                        </div>
-                        <div class="testimonial-content">
-                            <p>
-                                Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate
-                                eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-                                dictum felis eu pede mollis pretium.
-                            </p>
-                        </div>
-                        <div class="testimonial-meta">
-                            <strong class="testimonial-name" itemprop="name">Anna Vandana</strong>
+                            </div>
+                            <div class="testimonial-content">
+                                <p>
+                                    Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                                </p>
+                            </div>
 
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-4 testimonial-three-col">
-                    <div class="testimonial-inner">
-                        <div class="testimonial-image" itemprop="image">
-                            <img width="180" height="180" src="https://bootdey.com/img/Content/avatar/avatar2.png">
-                        </div>
+                    <div class="col-md-4 testimonial-three-col">
+                        <div class="testimonial-inner">
+                            <div class="testimonial-image" itemprop="image">
+                                <img width="180" height="180" src="https://bootdey.com/img/Content/avatar/avatar2.png">
+                            </div>
+                            <div class="testimonial-meta mb-2">
+                                <strong class="testimonial-name" itemprop="name">Anna Vandana</strong>
 
-                        <div class="testimonial-content">
-                            <p>
-                                In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu
-                                pede mollis pretium. Integer tincidunt. Cras dapibus.
-                            </p>
-                        </div>
-
-                        <div class="testimonial-meta">
-                            <strong class="testimonial-name" itemprop="name">Anna Vandana</strong>
-
+                            </div>
+                            <div class="testimonial-content">
+                                <p>
+                                    In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <div class="col-md-4 testimonial-three-col">
+                        <div class="testimonial-inner">
+                            <div class="testimonial-image" itemprop="image">
+                                <img width="180" height="180" src="https://bootdey.com/img/Content/avatar/avatar6.png">
+                            </div>
+                            <div class="testimonial-meta mb-2">
+                                <strong class="testimonial-name" itemprop="name">Anna Vandana</strong>
 
+                            </div>
+                            <div class="testimonial-content">
+                                <p>
+                                    In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                                </p>
+                            </div>
 
-                <div class="col-md-4 testimonial-three-col">
-                    <div class="testimonial-inner">
-                        <div class="testimonial-image" itemprop="image">
-                            <img width="180" height="180" src="https://bootdey.com/img/Content/avatar/avatar6.png">
-                        </div>
-
-                        <div class="testimonial-content">
-                            <p>
-                                In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu
-                                pede mollis pretium. Integer tincidunt. Cras dapibus.
-                            </p>
-                        </div>
-
-                        <div class="testimonial-meta">
-                            <strong class="testimonial-name" itemprop="name">Anna Vandana</strong>
 
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+    </main>
+    <footer id="sticky-footer" class=" py-2 bg-dark">
+        <div class="brand">
+            <a class="navbar-brand" href="#">gotLost</a>
         </div>
-    </section>
-
-
-    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
-        <div class="container text-center">
-            <small>Copyright &copy; All Rights Reserved Terms of Use and Privacy Policy</small>
+        <div class="copyright">
+            <small> <span>Copyright &copy;</span> <span>All Rights Reserved</span> <span>Terms of Use</span> and <span>Privacy Policy</span></small>
         </div>
     </footer>
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-        crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
