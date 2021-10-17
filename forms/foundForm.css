@@ -105,7 +105,7 @@
     
     #main-container {
         max-width: 90%;
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         /* border: 2px solid black; */
     }
