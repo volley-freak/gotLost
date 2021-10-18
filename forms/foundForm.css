@@ -59,6 +59,13 @@
         color: #caac00;
         /* font-weight: 200; */
     }
+    .grow {
+        transition: all 0.3s;
+    }
+    
+    .grow:hover {
+        transform: scale(1.2);
+    }
     
     #navbarSupportedContent>button:hover {
         background: rgb(22, 138, 113);
