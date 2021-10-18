@@ -41,39 +41,30 @@ ul li {
     color: white;
     font-size: 1.5rem;
     cursor: pointer;
-    /* font-weight: 200; */
 }
 
 .signin:hover {
     color: #caac00;
-    /* font-weight: 200; */
 }
 
 #navbarSupportedContent>button:hover {
     background: rgb(22, 138, 113);
 }
 
-
-/* main {
-    background: url('https://image.freepik.com/free-vector/white-abstract-background_23-2148806276.jpg') center/cover;
-} */
-
 section {
     position: relative;
 }
 
 .section-1 {
-    /* border: 2px solid red;/ */
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: url('images/Untitled-1.png') center/cover no-repeat; */
 }
 
 .section-1::before {
     content: "";
-    background: url('images/Untitled-1.png') center/cover no-repeat;
+    background: url('images/background.png') center/cover no-repeat;
     position: absolute;
     top: 0;
     width: 100%;
@@ -89,7 +80,6 @@ section {
 }
 
 section .title {
-    /* font-family: 'Open Sans', sans-serif; */
     font-size: 3rem;
     font-weight: 800;
 }
@@ -105,14 +95,12 @@ h2 hr {
 .section-5 p {
     font-size: 1.3rem;
     text-align: justify;
-    /* word-spacing: 1px; */
     line-height: 30px;
     font-weight: 500;
 }
 
 .section-2 {
     max-width: 100%;
-    /* height: 100%; */
 }
 
 .section-2::before,
@@ -121,7 +109,7 @@ h2 hr {
 .section-5::before,
 .section-6::before {
     content: "";
-    background: url('images/Untitled-1.png') center/cover no-repeat;
+    background: url('images/background.png') center/cover no-repeat;
     position: absolute;
     /* top: 0; */
     width: 100%;
@@ -152,9 +140,8 @@ h2 hr {
     color: black;
     border: #030027 2px solid;
     background-color: white;
-    /* padding: 0.6rem 1.4rem;
-    border-radius: 30px; */
 }
+
 .shrink {
     transition: all 0.4s;
 }
@@ -170,14 +157,10 @@ h2 hr {
 .grow:hover {
     transform: scale(1.2);
 }
+
 .lost-found {
     width: 80%;
 }
-
-
-/* .section-3 {
-    background: url('https://image.freepik.com/free-vector/white-gray-background-with-diagonal-lines-pattern_1017-25100.jpg') center/cover no-repeat;
-} */
 
 .section-3 .container {
     max-width: 80%;
@@ -206,7 +189,6 @@ h2 hr {
 .lost-found-card {
     background: #030027;
     border: 2px solid #0300273a;
-    /* box-shadow: 0px 0px 90px 30px rgb(0 0 0 / 22%); */
 }
 
 .heading {
@@ -221,7 +203,6 @@ h2 hr {
 }
 
 .service .one {
-    /* background: rgb(255, 255, 255); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -238,30 +219,10 @@ h5 {
 
 /* RECENT RETURNS */
 
-
-/* .section-4,
-.section-5 {
-    background: url('https://image.freepik.com/free-vector/white-abstract-background_23-2148806276.jpg') center/cover no-repeat;
-} */
-
 .section-4 .container,
 .section-5 .container {
     max-width: 80%;
 }
-
-
-/* .section-6 .container {
-    max-width: 80%;
-}
-
-.testimonial-three-col {
-    background: #030027;
-    padding: 20x;
-}
-
-.testimonial-three-col strong {
-    color: white;
-} */
 
 .testimonial-three-col p {
     text-align: justify;
