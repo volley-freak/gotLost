@@ -64,7 +64,7 @@ section {
 
 .section-1::before {
     content: "";
-    background: url('images/Untitled-1.png') center/cover no-repeat;
+    background: url('images/background.png') center/cover no-repeat;
     position: absolute;
     top: 0;
     width: 100%;
@@ -109,7 +109,7 @@ h2 hr {
 .section-5::before,
 .section-6::before {
     content: "";
-    background: url('images/Untitled-1.png') center/cover no-repeat;
+    background: url('images/background.png') center/cover no-repeat;
     position: absolute;
     /* top: 0; */
     width: 100%;
@@ -223,11 +223,6 @@ h5 {
 .section-5 .container {
     max-width: 80%;
 }
-
-.testimonial-three-col strong {
-    color: white;
-}
-
 .testimonial-three-col p {
     text-align: justify;
 }
