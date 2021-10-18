@@ -93,3 +93,39 @@ git push -u origin <your_branch_name>
 *13.* Click on `Create Pull Request`.
 
 *14.* Hurray ❗ You have created a PR to the gotLost 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
+
+
+## Contributors💫
+A big thanks to the following individuals who helped with this project:
+
+<table>
+    <tr>
+        <td> <img src="./contributors/Jdoe-1.jpg"  alt="1" width = 200px  > <p align=center><a href="">Jane Doe</a><br>🎈🥼🥽</p></td>
+        <td> <img src="./contributors/Jdoe-1.jpg"  alt="1" width = 200px  > <p align=center><a href="">Jane Doe</a><br>🎈🥼🥽</p></td>
+        <td> <img src="./contributors/Jdoe-1.jpg"  alt="1" width = 200px> <p align=center><a href="">Jane Doe</a><br>🎈🥼🥽</p></td>
+        <td> <img src="./contributors/Jdoe-1.jpg"  alt="1" width = 200px  > <p align=center><a href="">Jane Doe</a><br>🎈🥼🥽</p></td>
+        <td> <img src="./contributors/Jdoe-1.jpg"  alt="1" width = 200px  > <p align=center><a href="">Jane Doe</a><br>🎈🥼🥽</p></td>
+    </tr> 
+    <tr>
+        <td><img src="./contributors/Jdoe-2.jpg"    alt="3" width = 200px><p align=center><a href="">John Doe</a><br>🎈🥼🥽</p></td>
+        <td><img src="./contributors/Jdoe-2.jpg"    alt="3" width = 200px><p align=center><a href="">John Doe</a><br>🎈🥼🥽</p></td>
+        <td><img src="./contributors/Jdoe-2.jpg"    alt="3" width = 200px><p align=center><a href="">John Doe</a><br>🎈🥼🥽</p></td>
+        <td><img src="./contributors/Jdoe-2.jpg"    alt="3" width = 200px><p align=center><a href="">John Doe</a><br>🎈🥼🥽</p></td>
+        <td><img src="./contributors/Jdoe-2.jpg"    alt="3" width = 200px><p align=center><a href="">John Doe</a><br>🎈🥼🥽</p></td>
+    </tr>
+    <tr>
+        <td><img src="./contributors/Jdoe-3.jpg" alt="3" width = 200px><p align=center><a href="">Jane Doe</a><br>🎈🥼🥽</p></td>
+        <td><img src="./contributors/Jdoe-3.jpg" alt="3" width = 200px><p align=center><a href="">Jane Doe</a><br>🎈🥼🥽</p></td>
+        <td><img src="./contributors/Jdoe-3.jpg" alt="3" width = 200px><p align=center><a href="">Jane Doe</a><br>🎈🥼🥽</p></td>
+        <td><img src="./contributors/Jdoe-3.jpg" alt="3" width = 200px><p align=center><a href="">Jane Doe</a><br>🎈🥼🥽</p></td>
+        <td><img src="./contributors/Jdoe-3.jpg" alt="3" width = 200px><p align=center><a href="">Jane Doe</a><br>🎈🥼🥽</p></td>
+    </tr>
+    <tr>
+        <td><img src="./contributors/Jdoe-4.jpg" alt="3" width = 200px><p align=center><a href="">John Doe</a><br>🎈🥼🥽</p></td>
+        <td><img src="./contributors/Jdoe-4.jpg" alt="3" width = 200px><p align=center><a href="">John Doe</a><br>🎈🥼🥽</p></td>
+        <td><img src="./contributors/Jdoe-4.jpg" alt="3" width = 200px><p align=center><a href="">John Doe</a><br>🎈🥼🥽</p></td>
+        <td><img src="./contributors/Jdoe-4.jpg" alt="3" width = 200px><p align=center><a href="">John Doe</a><br>🎈🥼🥽</p></td>
+        <td><img src="./contributors/Jdoe-4.jpg" alt="3" width = 200px><p align=center><a href="">John Doe</a><br>🎈🥼🥽</p></td>
+    </tr>
+
+</table>
