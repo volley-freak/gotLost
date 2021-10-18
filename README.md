@@ -93,3 +93,35 @@ git push -u origin <your_branch_name>
 *13.* Click on `Create Pull Request`.
 
 *14.* Hurray ❗ You have created a PR to the gotLost 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
+
+
+## Contributors ✨
+
+<p>Thanks goes to these wonderful volunteers ❤</p>
+
+<table>
+<tr><td align="center"><a href="https://github.com/Volley-Freak"><kbd><img src="https://avatars.githubusercontent.com/u/85556562?v=4" width="100px;" alt=""/></kbd><br /><sub><b>Hritik Singh</b></sub></a><br /><a href="https://github.com/Volley-Freak/gotLost/commits?author=Volley-Freak" title="Code"> :computer: </a> </td>
+<td align="center"><a href="https://github.com/gajjarkuldip"><kbd><img src="https://avatars.githubusercontent.com/u/63839657?v=4" width="100px;" alt=""/></kbd><br /><sub><b>GAJ2AR KULDIP</b></sub></a><br /><a href="https://github.com/Volley-Freak/gotLost/commits?author=gajjarkuldip" title="Code"> :computer: </a> </td>
+<td align="center"><a href="https://github.com/mr-palindrome"><kbd><img src="https://avatars.githubusercontent.com/u/56421861?v=4" width="100px;" alt=""/></kbd><br /><sub><b>Nayan Das</b></sub></a><br /><a href="https://github.com/Volley-Freak/gotLost/commits?author=mr-palindrome" title="Code"> :computer: </a> </td> 
+<td align="center"><a href="https://github.com/freak-volley"><kbd><img src="https://avatars.githubusercontent.com/u/87279103?v=4" width="100px;" alt=""/></kbd><br /><sub><b>Hritik Gusain</b></sub></a><br /><a href="https://github.com/Volley-Freak/gotLost/commits?author=freak-volley" title="Code"> :computer: </a> </td>     
+<td align="center"><a href="https://github.com/underscoremissa"><kbd><img src="https://avatars.githubusercontent.com/u/60807560?v=4" width="100px;" alt=""/></kbd><br /><sub><b>underscoremissa</b></sub></a><br /><a href="https://github.com/Volley-Freak/gotLost/commits?author=underscoremissa" title="Code"> :computer: </a> </td> 
+<td align="center"><a href="https://github.com/Jayanthee365"><kbd><img src="https://avatars.githubusercontent.com/u/74585799?v=4" width="100px;" alt=""/></kbd><br /><sub><b>Jayanthi Gupshup</b></sub></a><br /><a href="https://github.com/Volley-Freak/gotLost/commits?author=Jayanthee365" title="Code"> :computer: </a> </td> 
+<td align="center"><a href="https://github.com/Manishgupta200"><kbd><img src="https://avatars.githubusercontent.com/u/67632571?v=4" width="100px;" alt=""/></kbd><br /><sub><b>Manish Gupta</b></sub></a><br /><a href="https://github.com/Manishgupta200" title="Code"> :computer: </a> </td>
+</tr>
+<tr>
+<!-- ------------------------ UPDATE MORE ROWS AS NUMBER OF CONTRIBUTERS INCREASE ------------------------------   -->
+</tr>
+
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+Contributions of any kind welcome!
+
+>    NOTE: if you should be on the list of contributors but we forgot you, don't be shy and let us know!
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Volley-Freak](https://www.linkedin.com/) has waived all copyright and neighboring rights to this work.
