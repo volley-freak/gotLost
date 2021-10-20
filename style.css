@@ -263,7 +263,7 @@ footer small {
     word-spacing: 1px;
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.616);
-    margin-left: 10em;
+    margin-left: 19em;
     cursor: pointer;
 }
 
@@ -276,14 +276,46 @@ small span:hover {
     color: rgba(255, 255, 255, 0.582);
     font-size: 2rem;
     cursor: pointer;
+    margin-left: 11%;
 }
 
 .brand a:hover {
     color: white;
 }
 
-#sticky-footer {
-    display: flex;
+#footer{
+    background-color: #383E56;
+    color:white;
+    padding-left: 20%;
     justify-content: center;
     align-items: center;
 }
+
+.BackToTop{
+  margin-top: 30px;
+  margin-left: 46%;
+  color: rgba(255, 255, 255, 0.582);
+}
+
+.back{
+    color: rgba(255, 255, 255, 0.582);
+    margin-left: 7%;
+}
+
+.back:hover{
+    color: #fff;
+}
+
+.favicon{
+    margin-left: 40%;
+}
+
+.social-media{
+    color: rgba(255, 255, 255, 0.582);
+    margin: 20px 20px;
+}
+
+.social-media:hover{
+    color: #fff;
+}
+
