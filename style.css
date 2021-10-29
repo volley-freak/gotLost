@@ -319,3 +319,21 @@ small span:hover {
     color: #fff;
 }
 
+/* Responsiveness */
+@media (max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+    .section-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .d-flex{
+        flex-wrap: wrap;
+    }
+    #page-footer{
+        overflow: hidden;
+    }
+}
+
+
